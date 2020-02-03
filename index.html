@@ -39,7 +39,7 @@
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="url" name="url"
-                            pattern="(https?:\/\/)(www.)?(255.255.255.255|stasbasov.ru)(:\d{2,5})?((\/[\w][^_]*)*)?#?$"
+                            pattern="(https?:\/\/)(www.)?(([a-z]*\.[a-z]*)|((\b(1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\b)\.){3}(\b(1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\b))(:(0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5]))?((\/(\w*))*)?(#)?"
                             placeholder="Ваш сайт" required />
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
