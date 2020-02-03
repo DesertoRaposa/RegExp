@@ -1,7 +1,9 @@
 # desertoraposa.github.io
 
 ##### [Ссылка на проект](https://desertoraposa.github.io) 
-##### version 0.0.1
+
+![](https://badgen.net/badge/Version/0.0.2/green)
+![](https://badgen.net/badge/license/MIT/blue)
 
 ## Описание проекта
 
