@@ -1,4 +1,4 @@
-# desertoraposa.github.io
+# RegExp. Регулярные выражения
 
 ##### [Ссылка на проект](https://desertoraposa.github.io/RegExp) 
 
