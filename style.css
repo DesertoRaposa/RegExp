@@ -1,12 +1,12 @@
 @keyframes errors {
     from {
-      margin-top: -5px;
-      opacity: .1; 
+        margin-top: -5px;
+        opacity: .1; 
     }
-  
+
     to {
-      margin-top: 10px;
-      opacity: 1;
+        margin-top: 10px;
+        opacity: 1;
     }
 }
 
@@ -15,9 +15,20 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    background: url(https://images.unsplash.com/photo-1543097676-44e5a5bd4ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
 .container {
-    max-width: 600px;
+    max-width: 700px;
+    padding: 20px;
     margin: auto;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .header {
@@ -45,14 +56,14 @@ html {
 .block {
     margin-top: 60px;
     border-radius: 3px;
-  }
+}
 
 .cover {
     display: flex;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 20px;
-  }
+}
 
 .cover__image {
     width: 110px;
@@ -63,7 +74,7 @@ html {
     background-position: center;
     border-radius: 50%;
 }
-  
+
 .cover__heading {
     margin-left: 30px;
     font-size: 2.5em;
@@ -71,7 +82,7 @@ html {
 }
 
 .form__field {
-	margin-bottom: 36px;
+    margin-bottom: 36px;
 }
 
 .form__fieldset {
@@ -84,9 +95,9 @@ html {
     display: none;
     position: absolute;
     margin-top: 10px;
-	color: #df4b41;
-	text-align: left;
-	font-size: 14px;
+    color: #df4b41;
+    text-align: left;
+    font-size: 14px;
     animation: errors .1s ease-in-out;
 }
 
@@ -94,9 +105,9 @@ html {
     display: block;
     width: 100%;
     border: none;
-	border-radius: 2px;
-	border-bottom: 2px solid #ccc;
-	padding: 10px 0;
+    border-radius: 2px;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
     box-sizing: border-box;
     font-size: 16px;
     padding-left: 10px;
@@ -111,18 +122,24 @@ html {
     border: none;
     text-align: center;
     cursor: pointer;
-	background-color: #b1aabd;
-	color: #000;
+    background-color: #b1aabd;
+    color: #000;
 }
 
 .form__input:valid:not(:placeholder-shown) {
-	border-color: #ffdb4d;
+    border-color: #ffdb4d;
 }
 
 .form__input:invalid:not(:placeholder-shown) {
-	border-color: #df4b41;
+    border-color: #df4b41;
 }
 
 .form__input:invalid:not(:placeholder-shown) + .form__error {
-	display: block;
+    display: block;
+}
+
+.text-error {
+    font-size: 12px;
+    color: red;
+    margin-left: 10px;
 }
